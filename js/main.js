@@ -1,4 +1,5 @@
 
+
 let changeNum = function(){
   let y = 55;
   function game(){
@@ -14,7 +15,7 @@ let changeNum = function(){
     } else if (isNaN(x)) {
       alert('Введи число!');
       game();
-    } else {
+    } else if (x===null) {
       alert('Игра окончена')
     }
   };
